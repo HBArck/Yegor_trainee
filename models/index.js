@@ -24,4 +24,4 @@ const Owners = mongoose.model('Owners', owners);
 const Kennel = mongoose.model('Kennel', kennel);
 
 
-export { Pets, Owners, Kennel };
+module.exports = { Pets, Owners, Kennel };
